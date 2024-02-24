@@ -118,3 +118,7 @@ section h2 {
 #games .articles article a {
     background-color: rgba(255, 0, 0, 0.8);
 }
+
+#technology {
+    background-color: rgba(0, 0, 255, 0.18);
+}
