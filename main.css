@@ -35,6 +35,11 @@ form {
     padding: 10px;
 }
 
+.form-item {
+    max-width: 300px;
+    width: 100%;
+
+}
 .form-item input {
     outline: none;
     color: yellow;

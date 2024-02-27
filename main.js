@@ -11,12 +11,12 @@ form.addEventListener("submit", function(e){
     if(campoB.value > campoA.value) {
         textMessage.classList.remove("error");
         textMessage.classList.add("success");
-        msg = `Formulário válido !!`;
+        msg = `Formulário válido !! ${campoB.value} é maior que ${campoA.value}`;
         textMessage.innerHTML = msg;
     } else {
         textMessage.classList.remove("success");
         textMessage.classList.add("error");
-        msg =  `Formulário inválido !!`;
+        msg =  `Formulário inválido !! ${campoB.value} não é maior que ${campoA.value}`;
         textMessage.innerHTML = msg;
     }
 });
