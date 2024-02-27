@@ -4,19 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exercicio Html Javascript</title>
+    <link rel="stylesheet" href="./main.css">
 </head>
-<body>
-    <form action="" >
-        <div class="form-item">
+<body class="flex">
+    <form action="" class="flex" >
+        <div class="form-item flex">
             <label for="campoA">CampoA</label>
             <input type="number" id="campoA">
         </div>
 
-        <div class="form-item">
-            <label for="campoB">CamboB</label>
+        <div class="form-item flex">
+            <label for="campoB">CampoB</label>
             <input type="number" id="campoB">
         </div>
-        <button type="submit">Enviar</button>
+        <button type="submit" class="form-item">Enviar</button>
+        <p id="text-message" class="form-item"></p>
     </form>
 </body>
+<script src="./main.js"></script>
 </html>
