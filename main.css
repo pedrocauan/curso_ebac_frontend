@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background:linear-gradient(45deg, rgb(12, 12, 12), rgb(22, 21, 21));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: yellow;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+main {
+    background-color: black;
+    padding: 40px;
+    border-radius: 4px;
+    font-size: 30px;
+}
+
+main h1 {
+    margin-bottom: 20px;
+    text-transform: capitalize;
+    letter-spacing: 4px;
+    font-size: 40px;
+}
+
+
+ul li {
+    cursor: pointer;
+}
+
+.checked {
+    text-decoration: line-through;
+    user-select: none;
+    background-color: rgba(2, 43, 11, 0.637) !important;
+    color: green !important;
+}
+
+.unchecked {
+    text-decoration: none;
+}
+
+.content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.input-content input, .input-content button {
+    padding: 15px;
+    font-size: 18px;
+}
+
+.input-content button, .input-content input {
+    background-color: yellow;
+    font-weight: bold;
+    border: none;
+}
+
+.input-content button:hover {
+    cursor: pointer;
+}
+
+.content ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+    text-align: center;
+}
+
+.content ul #task-item {
+    background-color: rgba(65, 58, 58, 0.637);
+    padding: 7px;
+    border-radius: 4px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: yellow;
+    user-select: none;
+}
