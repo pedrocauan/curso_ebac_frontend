@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    min-height: 100vh;
+    background-color: #F0F4F9;
+    font-family: "Space Grotesk", sans-serif;
+}
+
+form { 
+    max-width: 640px;
+    padding: 32px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 1.5px 1.5px 1.5px #eeecec;
+}
+
+.content {
+    flex-direction: column;
+    gap: 30px;
+    width: 100%;
+}
+
+.content label {
+    display: block;
+    font-weight: bold;
+    color: #111111;
+    font-size: 17px;
+}
+
+.content button {
+    padding: 15px 30px;
+    background-color: #0B57D0;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.content button:hover {
+    background-color: #1a478f;
+}
+
+form,
+.form-item,
+.content,
+.form-item input {
+    width: 100%;
+}
+
+.form-item {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.form-item input {
+    border: none;
+    border-bottom: 2px solid #a7bbcf;
+    border-radius: 0.2px;
+    padding: 4px;
+    font-size: 16px;
+    outline: none;
+    color: #1F1F1F;
+
+}
+
+.form-item input::-webkit-input-placeholder {
+    color: #a7bbcf;
+ }
+
+.form-item input:focus {
+    border-color: #1a478f;
+    color: #1a478f;
+    font-weight: bold;
+}
+
+.form-item label.error {
+    font-size: 14px;
+}
+
+.error {
+    border-color: red !important;
+    color: red !important;
+}
+
+.error::-webkit-input-placeholder {
+    color: red;
+    
+ }
