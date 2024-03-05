@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="/css/main.css">
+    <!--fontes-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+
+</head>
+<body class="container-flex">
+
+    <form action="" class="" >
+        <div class="content container-flex">
+            <div class="form-item">
+                <label for="name">Nome Completo</label>
+                <input type="text" name="name"  id="name">
+            </div>
+            <div class="form-item">
+                <label for="name">Email</label>
+                <input type="text" name="email" id="email" placeholder="exemplo@exemplo.com">
+            </div>
+            <div class="form-item">
+                <label for="phone">Telefone</label>
+                <input type="text" name="phone" placeholder="(11) 91111-1111" id="phone">
+            </div>
+            <div class="form-item">
+                <label for="CPF">CPF</label>
+                <input type="text" name="CPF" placeholder="000.000.000-00" id="CPF">
+            </div>
+            <div class="form-item">
+                <label for="address">Endereço</label>
+                <input type="text" name="address" id="address">
+            </div>
+            <div class="form-item">
+                <label for="cep">CEP</label>
+                <input type="text" name="cep" placeholder="00000-000" id="cep">
+            </div>
+            <button type="submit">Enviar</button>
+        </div>
+    </form>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="./js/jquery.mask.min.js"></script>
+    <script src="./js/jquery.validate.min.js"></script>
+    <script src="./js/messages_pt_BR.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
