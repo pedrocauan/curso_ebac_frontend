@@ -1,0 +1,25 @@
+main {
+    min-height: 100vh;
+}
+body {
+    background-color: rgb(231, 231, 231);
+}
+
+form {
+    width: 500px;
+}
+
+label {
+    font-size: 18px;
+}
+
+label:hover {
+    cursor: pointer;
+}
+
+.error {
+    border-color: rgb(219, 64, 64);
+    color: rgb(219, 64, 64);
+    padding: 5px;
+    margin-top: 12px;
+}
